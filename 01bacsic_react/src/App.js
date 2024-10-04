@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-
+import Chai from "./Chai";
 class App extends Component {
   render() {
     return (
-      <h1>"hello"</h1>
+      <div>
+      <Chai/>
+      </div> 
     );
   }
 }
